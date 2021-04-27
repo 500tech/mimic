@@ -96,7 +96,7 @@
     "style-loader": "0.18.2",
     "styled-components": "2.1.0",
     "superagent": "3.5.2",
-    "urijs": "1.18.10",
+    "urijs": "1.19.6",
     "url-loader": "0.5.9",
     "uuid": "3.1.0",
     "webpack": "3.0.0",
