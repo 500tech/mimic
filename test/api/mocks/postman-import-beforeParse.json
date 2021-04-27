@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "6afb6c77-7888-47b3-b30e-f8b8870d496c",
+		"name": "Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://www.ynet.co.il",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "niantic",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://www.ynet.co.il",
+					"protocol": "https",
+					"host": [
+						"www",
+						"ynet",
+						"co",
+						"il"
+					]
+				},
+				"query": [
+					{
+						"key": "test",
+						"value": "test"
+					},
+					{
+						"key": "test1",
+						"value": "test"
+					}
+				]
+				
+			},
+			"response": [
+				{
+					"name": "https://www.ynet.co.il",
+					"originalRequest": {},
+					"status": "OK",
+					"code": 200,
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "hi hi hi hi"
+				}
+			]
+		}
+	],
+	"protocolProfileBehavior": {}
+}

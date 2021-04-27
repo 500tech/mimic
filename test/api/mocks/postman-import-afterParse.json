@@ -1,0 +1,34 @@
+{
+	"version": "2.0.0",
+	"groups": [
+		{
+			"id": "6afb6c77-7888-47b3-b30e-f8b8870d496c",
+			"name": "Test",
+			"active": true
+		}
+	],
+	"mocks": [
+		{
+			"active": true,
+			"method": "GET",
+			"url": "https://www.ynet.co.il?test=test&test1=test",
+			"headers": {
+				"User-Agent": "niantic",
+				"Content-Type": "application/json"
+			},
+			"params": "",
+			"response": {
+				"status": 200,
+				"delay": 0,
+				"headers": {
+					"Content-Type": "application/json"
+				},
+				"body": "hi hi hi hi"
+			},
+			"name": "https://www.ynet.co.il",
+			"origin": "POSTMAN",
+			"id": "POSTMAN_0_6afb6c77-7888-47b3-b30e-f8b8870d496c",
+			"groupId": "6afb6c77-7888-47b3-b30e-f8b8870d496c"
+		}
+	]
+}
